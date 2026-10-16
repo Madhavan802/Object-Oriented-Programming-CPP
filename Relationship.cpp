@@ -72,6 +72,7 @@ int main(){
       c.bookDisplay();
 
       AuthorDetails a1("JK Rowling",1);
-      PublishBook("Chamber of secrets",&a1);
+      PublishBook a3("Chamber of secrets",&a1);
+
     return 0;
 }
